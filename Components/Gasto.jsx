@@ -25,11 +25,11 @@ const {categoria,nombre,cantidad,id,fecha} = gasto;
   return (
     <div className='gasto sombre'>
         <div className='contenido-gasto'>
-            <div className="descripcion-gasto">
                 <img
                     src={diccionarioIconos[categoria]}
                     alt='Imagen Gasto'
                 />
+            <div className="descripcion-gasto">
                 <p className='categoria'>{categoria}</p>
                 <p className='nombre-gasto'>{nombre}</p>
                 <p className="fecha-gasto">
